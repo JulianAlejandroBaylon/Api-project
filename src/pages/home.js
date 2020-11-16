@@ -11,7 +11,7 @@ const Home = async () =>{
             <li>
                 <div class="invitado">
                     <img src=${character.img} alt="">
-                    <p><strong>Name:</strong>${character.name}<br><strong>nickname:</strong>${character.nickname}<br><strong>Birthday:</strong>${character.birthday}<br><strong>Status:</strong>${character.status}</p>
+                    <p><strong>Numero:</strong>${character.n_key}<br><strong>Modelo:</strong>${character.modelo}<br><strong>Marca:</strong>${character.marca}<br></p>
                 </div>
             </li>
             `

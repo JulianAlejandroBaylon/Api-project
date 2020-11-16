@@ -2,7 +2,7 @@ const Header = () => {
     const view = `
         <div class="Header-main">
             <div class="Header-logo">
-                <img src="/src/img/logo.png"></img>
+                <img src="Encabezado.png"></img>
             </div>
             </div>
     `

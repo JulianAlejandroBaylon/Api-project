@@ -4,8 +4,8 @@
   "description": "SPA con JavaScript",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "heroku-postbuild": "webpack -p",
+    "start": "node server.js"
   },
   "keywords": [
     "API",
@@ -21,5 +21,8 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
